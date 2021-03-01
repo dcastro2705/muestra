@@ -1,0 +1,115 @@
+*{
+	padding:0;
+	margin:0;
+	font-family: Calibri;
+}
+
+.header{
+	background: #f9db3f;
+}
+
+.header div h2{
+	text-align: center;
+	color: black;
+	font-size: 40px;
+	display: flex;
+	justify-content: flex-start;
+}
+
+nav{
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	text-align: center;
+}
+
+nav div{
+	padding: 12px;
+}
+
+nav div a{
+	text-decoration: none;
+	color: black;
+	padding: 10px;
+}
+
+nav div a:hover{
+	box-shadow: 0px 2px 0px black;
+	-webkit-transition:0.2s;
+}
+
+#nosotros{
+	margin: 400px 0px;
+}
+
+.footer{
+	background: black;
+	padding: 50px 0px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+
+}
+.contacto{
+	border: 3px solid #f9db3f;
+	width: 400px;
+	display: block;
+	padding: 10px;
+}
+.contacto h3{
+	color: white;
+}
+
+.contacto input, textarea{
+	margin: 5px 0px;
+	width: 100%;
+	padding: 5px;
+	box-sizing: border-box;
+}
+
+.contacto input:focus, textarea:focus{
+	border: 1px solid #f9db3f;
+}
+
+.contacto textarea{
+	resize: vertical;
+	max-height: 150px;
+}
+
+.contacto input[type="submit"]{
+	background: #f9db3f;
+	border: none;
+}
+
+.contacto input[type="submit"]:hover{
+	background: white;
+	cursor: pointer;
+}
+.redes{
+	display: inline-flex;
+	align-items: center;
+	padding: 20px 0px;
+}
+
+.redes p{
+	margin-right: 10px;
+	color: white;
+}
+
+.redes a{
+	text-decoration: none;
+}
+
+@media screen and (max-width: 300px){
+	.redes p{
+		margin: 10px 0px;
+		text-align: center;
+	}
+	.redes{
+		display: block;
+	}
+	.redes .img{
+		margin: 0%	8%;
+	}
+}
